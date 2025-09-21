@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-authentication-assignment",
+  "version": "1.0.0",
+  "description": "Authentication implementation with password hashing and JWT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "body-parser": "^1.20.2"
+  },
+  "keywords": ["authentication", "jwt", "bcrypt", "nodejs"],
+  "author": "Student",
+  "license": "MIT"
+}
